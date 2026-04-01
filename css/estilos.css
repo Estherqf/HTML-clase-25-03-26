@@ -1,0 +1,139 @@
+/* Paleta de Colores: Mágica, Vibrante y Antigua */
+body {
+    background-color: #1a1612; /* Fondo chocolate oscuro (más cálido) */
+    color: #d4c5a1; /* Pergamino claro para lectura fácil */
+    font-family: 'Palatino', 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+/* Encabezado con degradado sutil para dar brillo */
+header {
+    background: linear-gradient(180deg, #3d0001 0%, #740001 100%); /* Rojo Gryffindor vibrante */
+    color: #eeba30; /* Oro brillante */
+    text-align: center;
+    padding: 60px 0;
+    border-bottom: 5px solid #eeba30;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px #000; /* Efecto de relieve */
+}
+
+header p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #f1e5ac;
+}
+
+/* Navegación */
+nav {
+    background-color: #0d1428; /* Azul noche vibrante */
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 2px solid #eeba30;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.3s; /* Suaviza el cambio de color */
+}
+
+nav a:hover {
+    color: #eeba30;
+    text-shadow: 0 0 10px #eeba30; /* Efecto de brillo mágico */
+}
+
+/* Contenedor Principal */
+main {
+    width: 75%;
+    margin: 40px auto;
+    background-color: #26211a; /* Tono café tabaco */
+    padding: 30px;
+    border: 2px solid #5c4d33;
+    box-shadow: inset 0 0 30px rgba(0,0,0,0.7); /* Sombra interna para profundidad */
+}
+
+h2 {
+    color: #eeba30;
+    font-size: 28px;
+    border-bottom: 2px solid #740001;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+/* Artículos con colores de las casas más vivos */
+article {
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: #2e2820;
+    border-radius: 5px;
+    border: 1px solid #443e33;
+}
+
+article h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+/* Colores de las Casas con mayor saturación */
+.gryffindor { 
+    border-left: 8px solid #ae0001; 
+    color: #f1e5ac;
+}
+.gryffindor h3 { color: #ae0001; }
+
+.slytherin { 
+    border-left: 8px solid #2a623d; 
+}
+.slytherin h3 { color: #2a623d; }
+
+.ravenclaw { 
+    border-left: 8px solid #222f5b; 
+}
+.ravenclaw h3 { color: #222f5b; }
+
+.hufflepuff { 
+    border-left: 8px solid #ecb939; 
+}
+.hufflepuff h3 { color: #ecb939; }
+
+/* Pie de página */
+footer {
+    background-color: #0a0a0a;
+    text-align: center;
+    padding: 50px 0;
+    border-top: 3px solid #740001;
+    margin-top: 60px;
+}
+
+footer p {
+    color: #eeba30;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Iconos de Redes Sociales más visibles */
+.redes a {
+    color: #f1e5ac;
+    font-size: 28px;
+    margin: 0 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.redes a:hover {
+    color: #ffffff;
+    transform: scale(1.2); /* Crece un poco al pasar el mouse */
+}
